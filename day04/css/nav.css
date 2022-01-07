@@ -1,0 +1,15 @@
+/* 메뉴 만들기 */
+nav ul{list-style: none;}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    border-top: 2px solid #222;
+    padding: 10px;
+}
+nav ul li a{text-decoration: none; color: #222;}
+nav ul li:hover{background: #eee;}
+
+/*섹션 스타일*/
+section{
+    padding-left: 20px;
+}

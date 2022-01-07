@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표의 칼럼(col)스타일</title>
+    <style>
+        table,td,th{
+            border: 2px solid #1243f3;
+            border-collapse: collapse;
+        }
+        th,td{
+            width: 100px;
+            height: 50px;
+        }
+        /*.bg{
+            background: #effe;
+        } */
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col>
+        <col style="background: rgb(245, 173, 173);">
+        <col style="width: 200px;">
+        </colgroup>
+        <tr class="bg">
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+    </table>
+</body>
+</html>
