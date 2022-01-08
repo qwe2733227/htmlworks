@@ -1,0 +1,26 @@
+
+#container{
+    width: 700px;
+    margin: 0 auto;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}
+header{
+    width: 700px;
+    height: 70px;
+    background: #00f;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+nav ul li{
+    float: right;
+}
+section{
+    float: left;
+}
