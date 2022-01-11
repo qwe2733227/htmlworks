@@ -1,0 +1,13 @@
+#container{margin: 0 auto; border-left: 40px;}
+form fieldset{width: 600px; height: 600px; 
+    padding-left: 40px; margin: 0 auto;}
+form h1{text-align: center; border-left: 40px;}
+form #a{border-top: 1px solid #ccc;}
+form ul li{list-style: none;}
+form #c h3{margin-top: 30px;}
+form #e h3{margin-top: 30px;}
+form #info label{width: 60px;}
+.botton{margin-top: 10px;}
+/* button input{width: 89px; height: 30px; */
+    /* 버튼 태그 사용사 */
+    button{width:  60px; height: 30px;}
